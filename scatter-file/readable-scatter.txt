@@ -1,0 +1,33 @@
+NAME            FILENAME            START ADDRESS            SIZE            TYPE
+. sgpt          no file             0xFFFF0004               524288          NORMAL_ROM 
+. sgpt          no file             0xFFFF0004               524288          NORMAL_ROM 
+. sgpt          no file             0xFFFF0004               524288          NORMAL_ROM 
+. preloader     preloader.bin       0x0                      262144          SV5_BL_BIN 
+. pgpt          no file             0x0                      524288          NORMAL_ROM 
+. proinfo       no file             0x80000                  3145728         NORMAL_ROM 
+. nvram         no file             0x380000                 5242880         NORMAL_ROM 
+. protect1      no file             0x880000                 10485760        EXT4_IMG 
+. protect2      no file             0x1280000                10485760        EXT4_IMG 
+. lk            lk.bin              0x1c80000                524288          NORMAL_ROM 
+. para          no file             0x1d00000                524288          NORMAL_ROM 
+. boot          boot.img            0x1d80000                16777216        NORMAL_ROM 
+. recovery      recovery.img        0x2d80000                16777216        NORMAL_ROM 
+. logo          logo.bin            0x3d80000                8388608         NORMAL_ROM 
+. yl_params     YL-params.bin       0x4580000                1048576         NORMAL_ROM 
+. autobak       autobak.img         0x4680000                16777216        NORMAL_ROM 
+. panic         panic.img           0x5680000                2097152         NORMAL_ROM 
+. lk_bak        lk_bak.bin          0x6a80000                524288          NORMAL_ROM 
+. expdb         no file             0x6b00000                10485760        NORMAL_ROM 
+. seccfg        no file             0x7500000                524288          NORMAL_ROM 
+. oemkeystore   no file             0x7580000                2097152         NORMAL_ROM 
+. secro         secro.img           0x7780000                6291456         NORMAL_ROM 
+. keystore      no file             0x7d80000                8388608         NORMAL_ROM 
+. tee1          trustzone.bin       0x8580000                5242880         NORMAL_ROM 
+. tee2          trustzone.bin       0x8a80000                5242880         NORMAL_ROM 
+. frp           no file             0x8f80000                1048576         NORMAL_ROM 
+. nvdata        no file             0x9080000                33554432        EXT4_IMG 
+. metadata      no file             0xb080000                41418752        NORMAL_ROM 
+. system        system.img          0xd800000                -1568669696     EXT4_IMG 
+. cache         cache.img           0xb0000000               419430400       EXT4_IMG 
+. userdata      userdata.img        0xc9000000               1610612736      EXT4_IMG 
+. flashinfo     no file             0xFFFF0084               16777216        NORMAL_ROM 

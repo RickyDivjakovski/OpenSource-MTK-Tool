@@ -1,0 +1,6 @@
+Current Version:1.00
+
+Newest Stable Version:N/A
+
+Tool versions:
+-adb 1.0.32
